@@ -1,21 +1,7 @@
-html, body, div[id=app], div[data-reactroot] {
-  height: 100%;
-  width: 100%;
-}
-
-.buttons-container {
-  height:100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Base Application Styles */
 body {
   color: #fff;
-  background: aliceblue;
-  margin: 0;
+  background: #222;
 }
 
 .index img {

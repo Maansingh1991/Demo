@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('testproject:server');
+var debug = require('debug')('backend:server');
 var http = require('http');
 
 /**
@@ -87,5 +87,4 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
-  console.info('Listening on '+port)
 }
